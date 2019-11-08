@@ -1,6 +1,4 @@
 
-//Function that counts the number of characters in tweet 
-// Starts at 140 and decreases to negative 
 
 $(document).ready(function () {
 
