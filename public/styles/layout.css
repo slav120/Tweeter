@@ -1,0 +1,165 @@
+/*
+ * http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+ * https://css-tricks.com/international-box-sizing-awareness-day/
+ * Do not modify these two selectors, please
+ */
+
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+
+
+body {
+  color: #545149;
+  background-color:white ;
+  background-image: url("../images/diagmonds-light.png");
+  font-size: 24px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+
+
+.container {
+  width: 90%;
+  margin: auto;
+  margin-top: 1.5em;
+  
+}
+
+
+.tweet-container {
+  margin-bottom: 40px;
+  
+}
+
+
+p.error {
+  text-align: center;
+    border: solid black;
+    color: red;
+}
+
+
+.tweet {
+  border: solid black;
+  margin-top: 50px;
+  width: 100%;
+  position: relative;
+  opacity: 0.75;
+   
+}
+
+
+.tweet:hover {
+  box-shadow: 25px 25px black ;
+  opacity: 0.75;
+}
+
+
+
+.tweet img.profile-picture {
+  color: black; 
+  height: 50px;
+  width: 50px;
+  float: left;
+  margin-left: 35px;
+}
+
+
+
+p.username {
+  color: black; 
+  position: relative;
+  margin: 1em;
+}
+
+.tweet p.handler {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 1em;
+    display: none;
+    opacity: 0.5;    
+}
+
+
+p.date {
+  color: black; 
+  border-top: solid;
+  margin: 2%;
+  font-size: medium;
+}
+
+
+.tweet:hover .icon-box {
+  display: block;
+}
+
+
+.tweet:hover p.handler{  
+  display:block
+}
+
+
+p.tweet-content {
+  margin: 2em;
+}
+
+
+img.icon{
+  float: right;
+  width: 3%;
+  margin-right: 2%
+
+}
+
+
+div.icon-box{
+  position: absolute;
+  bottom: 8px;
+  right: 0px;
+  display: none;
+}
+
+
+
+
+#scrollUp {
+    background-color: transparent;
+    border-right: none; 
+    border-left: none; 
+    border-top: none;
+    border-bottom: none; 
+    float: right;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-image: url(https://ibb.co/XyfBbSV);
+    background-repeat:no-repeat;
+    outline: none;     
+
+  }
+
+
+
+
+
+
+@media only screen and (min-width: 1027px) {
+  .container {
+  width: 50%;
+  margin: 50px;
+  margin-top: 200px;
+  float: right;
+  display: block
+  
+  }
+}

@@ -1,0 +1,31 @@
+
+
+
+input {
+  font-family: "Bungee";
+  outline: none;
+  outline-style: none;
+  color: white;
+  background-color:#4056a1;
+  float: left
+}
+
+
+
+textarea {
+  width: 100%;
+  border-left: transparent;
+  border-right: transparent;
+  border-top: transparent;
+  background-color: transparent;
+  font-weight: bold;
+  border-bottom: 5.5px solid black;
+  outline: none;  
+}
+
+
+
+.counter {
+  font-family: "bungee";
+  float: right;
+}
