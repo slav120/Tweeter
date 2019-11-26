@@ -52,7 +52,8 @@ p.error {
   width: 100%;
   position: relative;
   opacity: 0.75;
-   
+  background-color: white;
+ 
 }
 
 
