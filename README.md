@@ -1,11 +1,9 @@
 # Tweeter Project
 
-**This is a Twitter clone that I have done for a school project !  
+Tweeter is a small twitter clone showcasing dynamic tweeting capabilites, immediate post of your tweet. Also includes a dynamic character counter, not allowing to exceed 140 characters per tweet.   
 
 
-Tweeter is a simple, single-page Twitter clone.
-
-This repository is the starter code for the project: Students will fork and clone this repository, then build upon it to practice their HTML, CSS, JS, jQuery and AJAX front-end skills, and their Node, Express and MongoDB back-end skills.
+This app has been made using JS, HTML, CSS, jQuery & AJAX for the front-end dynamics of the app, Node, Ecpress and MongoDB for the back-end. 
 
 
 
