@@ -1,4 +1,4 @@
-# Tweeter Project
+# Tweeter 
 
 Tweeter is a small twitter clone showcasing dynamic tweeting capabilites, immediate post of your tweet. Also includes a dynamic character counter, not allowing to exceed 140 characters per tweet.   
 
